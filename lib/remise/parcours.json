@@ -1,0 +1,2485 @@
+{
+  "courseId": "conexion-espanol",
+  "contentVersion": "2.0",
+  "locale": "fr",
+  "targetLanguage": "es",
+  "paperFile": "Conexion_espanol_Dossier_eleve.pdf",
+  "paperPrinting": {
+    "pages": 12,
+    "format": "A4",
+    "sides": "single"
+  },
+  "steps": [
+    "decouvrir",
+    "comprendre",
+    "entrainer",
+    "copier",
+    "appliquer",
+    "verifier"
+  ],
+  "modules": [
+    {
+      "id": "S01",
+      "title": "¡Hola!",
+      "objective": "Je salue et je demande de l’aide.",
+      "paperPage": 1,
+      "documentHtml": "— ¡Hola! Me llamo Inés. ¿Cómo te llamas?<br/>— Me llamo Sam. No entiendo. ¿Puedes repetir?<br/>— Sí. Me llamo Inés.<br/>— Gracias. ¡Hasta luego!",
+      "copyLesson": {
+        "title": "¡Hola!",
+        "lines": [
+          "¡Hola! = Salut ! Buenos días = Bonjour. Gracias = Merci.",
+          "No entiendo. = Je ne comprends pas. ¿Puedes repetir? = Peux-tu répéter ?",
+          "¿Cómo se dice…? = Comment dit-on… ? Por favor = S’il te plaît.",
+          "Lee = lis ; escucha = écoute ; escribe = écris ; completa = complète.",
+          "Le h est muet dans hola. Le ñ rappelle « gn » dans España. Le u se lit « ou »."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je repère",
+          "Souligne la salutation, entoure le remerciement et encadre la demande de répétition dans le dialogue.",
+          0
+        ],
+        [
+          "Je réutilise",
+          "Tu ne comprends pas : .....................................................................<br/>Tu demandes de répéter : ................................................................",
+          0
+        ]
+      ],
+      "paperSolutions": [
+        "Salutation : ¡Hola! ; remerciement : Gracias ; demande : ¿Puedes repetir? Hasta luego est une salutation de départ.",
+        "No entiendo. / ¿Puedes repetir?"
+      ],
+      "mission": "Écris quatre répliques : saluer et donner un prénom, demander de répéter, répéter le prénom, remercier. Lis ton dialogue à voix haute.",
+      "model": "— ¡Hola! Me llamo Alex. — ¿Puedes repetir? — Me llamo Alex. — Gracias.",
+      "criteria": [
+        "J’utilise une salutation et un remerciement.",
+        "Je sais demander de répéter."
+      ],
+      "help": [
+        "Retrouve les bulles du dialogue.",
+        "Commence par : ¡Hola! Me llamo…"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Tu veux remercier.",
+          "options": [
+            "Gracias.",
+            "No entiendo.",
+            "Hola."
+          ],
+          "correctIndex": 0,
+          "hint": "Cherche la formule de politesse.",
+          "explanation": "Gracias signifie merci.",
+          "phase": "training",
+          "id": "S01-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Tu ne comprends pas.",
+          "options": [
+            "Hasta luego.",
+            "No entiendo.",
+            "Buenos días."
+          ],
+          "correctIndex": 1,
+          "hint": "Entender veut dire comprendre.",
+          "explanation": "No entiendo permet de signaler une difficulté.",
+          "phase": "training",
+          "id": "S01-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "La consigne « escucha » demande de…",
+          "options": [
+            "lire",
+            "écrire",
+            "écouter"
+          ],
+          "correctIndex": 2,
+          "hint": "Pense à l’icône du haut-parleur.",
+          "explanation": "Escucha = écoute ; lee = lis ; escribe = écris.",
+          "phase": "training",
+          "id": "S01-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Quelle lettre est muette dans hola ?",
+          "options": [
+            "h",
+            "o",
+            "a"
+          ],
+          "correctIndex": 0,
+          "hint": "Le mot commence par le son de la voyelle.",
+          "explanation": "Le h espagnol ne se prononce pas.",
+          "phase": "training",
+          "id": "S01-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Pour demander de répéter, tu choisis…",
+          "options": [
+            "¿Cómo te llamas?",
+            "¿Puedes repetir?",
+            "Gracias."
+          ],
+          "correctIndex": 1,
+          "hint": "Tu veux réentendre la phrase.",
+          "explanation": "¿Puedes repetir? = Peux-tu répéter ?",
+          "phase": "exit",
+          "id": "S01-E05"
+        }
+      ],
+      "audio": {
+        "id": "A01",
+        "src": null,
+        "status": "to_record",
+        "transcript": "— ¡Hola! Me llamo Inés. ¿Cómo te llamas? — Me llamo Sam. No entiendo. ¿Puedes repetir? — Sí. Me llamo Inés. — Gracias. ¡Hasta luego!"
+      },
+      "teachingNote": "Le site ajoute un modèle sonore pour chaque expression ; faire écouter avant la lecture à voix haute.",
+      "visual": "bureau",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S01, écris le titre « ¡Hola! », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S01 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "hola": "salut",
+        "me llamo": "je m’appelle",
+        "¿cómo te llamas?": "comment t’appelles-tu ?",
+        "sí": "oui",
+        "hasta luego": "à plus tard"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "¡Hola! = Salut ! Buenos días = Bonjour. Gracias = Merci.\nNo entiendo. = Je ne comprends pas. ¿Puedes repetir? = Peux-tu répéter ?\n¿Cómo se dice…? = Comment dit-on… ? Por favor = S’il te plaît."
+        },
+        {
+          "title": "Repère 2",
+          "text": "Lee = lis ; escucha = écoute ; escribe = écris ; completa = complète.\nLe h est muet dans hola. Le ñ rappelle « gn » dans España. Le u se lit « ou »."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Este soy yo",
+      "objective": "Je me présente et je pose une question.",
+      "paperPage": 2,
+      "documentHtml": "¡Hola! Me llamo Leo. Tengo catorce años. Soy español y vivo en Sevilla. Hablo español y un poco de francés. Mi amiga Inés tiene trece años. Vive en Valencia.",
+      "copyLesson": {
+        "title": "Este soy yo",
+        "lines": [
+          "Me llamo Leo. = Je m’appelle Leo. Tengo catorce años. = J’ai quatorze ans.",
+          "Soy español. = Je suis espagnol. Vivo en Sevilla. = J’habite à Séville.",
+          "Hablo español y un poco de francés. = Je parle espagnol et un peu français.",
+          "¿Cómo te llamas? ¿Cuántos años tienes? ¿Dónde vives?",
+          "Pour présenter une autre personne : Se llama Inés. Tiene trece años. Vive en Valencia.",
+          "13 trece ; 14 catorce ; 15 quince. L’âge se construit avec tener : tengo, tienes, tiene."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je comprends le profil",
+          "Complète pour Leo : âge ................................ ; ville ................................<br/>Langues : ..........................................................................................",
+          0
+        ],
+        [
+          "Je change de personne",
+          "Présente Alma : 14 ans, Madrid. Utilise se llama, tiene et vive.",
+          2
+        ]
+      ],
+      "paperSolutions": [
+        "Leo : 14 ans ; Séville ; espagnol et un peu de français.",
+        "Se llama Alma. Tiene catorce años. Vive en Madrid."
+      ],
+      "mission": "Rédige ton profil en cinq phrases : prénom, âge, pays ou nationalité, ville et langues. Ajoute une question à ton correspondant. Tu peux tout inventer.",
+      "model": "Me llamo Alex. Tengo catorce años. Soy francés. Vivo en Nantes. Hablo francés y un poco de español. ¿Dónde vives?",
+      "criteria": [
+        "J’utilise tengo pour l’âge.",
+        "Mon profil donne cinq informations et une question."
+      ],
+      "help": [
+        "Choisis les expressions de la leçon.",
+        "Me llamo… Tengo… Vivo en…"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Yo ___ catorce años.",
+          "options": [
+            "soy",
+            "tengo",
+            "vivo"
+          ],
+          "correctIndex": 1,
+          "hint": "L’âge se dit avec avoir.",
+          "explanation": "Tener sert à indiquer l’âge : tengo catorce años.",
+          "phase": "training",
+          "id": "S02-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Pour demander la ville, tu dis…",
+          "options": [
+            "¿Dónde vives?",
+            "¿Cuántos años tienes?",
+            "¿Cómo te llamas?"
+          ],
+          "correctIndex": 0,
+          "hint": "Dónde interroge sur le lieu.",
+          "explanation": "¿Dónde vives? = Où habites-tu ?",
+          "phase": "training",
+          "id": "S02-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Inés ___ trece años.",
+          "options": [
+            "tengo",
+            "tienes",
+            "tiene"
+          ],
+          "correctIndex": 2,
+          "hint": "Inés correspond à elle.",
+          "explanation": "Él/ella tiene ; yo tengo ; tú tienes.",
+          "phase": "training",
+          "id": "S02-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Choisis la présentation correcte de Leo.",
+          "options": [
+            "Se llamo Leo.",
+            "Se llama Leo.",
+            "Me llama Leo."
+          ],
+          "correctIndex": 1,
+          "hint": "Pour il/elle : se llama.",
+          "explanation": "Me llamo pour moi ; se llama pour une autre personne.",
+          "phase": "training",
+          "id": "S02-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Tu demandes le prénom.",
+          "options": [
+            "¿Cómo te llamas?",
+            "¿Dónde vives?",
+            "¿Qué hora es?"
+          ],
+          "correctIndex": 0,
+          "hint": "Tu veux savoir comment la personne s’appelle.",
+          "explanation": "¿Cómo te llamas? demande le prénom.",
+          "phase": "exit",
+          "id": "S02-E05"
+        }
+      ],
+      "audio": {
+        "id": "A02",
+        "src": null,
+        "status": "to_record",
+        "transcript": "¡Hola! Me llamo Leo. Tengo catorce años. Soy español y vivo en Sevilla. Hablo español y un poco de francés. Mi amiga Inés tiene trece años. Vive en Valencia."
+      },
+      "teachingNote": "",
+      "visual": "loisirs",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S02, écris le titre « Este soy yo », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S02 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "soy": "je suis",
+        "español": "espagnol",
+        "vivo": "j’habite",
+        "hablo": "je parle",
+        "un poco de": "un peu de",
+        "francés": "français",
+        "amiga": "amie"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Me llamo Leo. = Je m’appelle Leo. Tengo catorce años. = J’ai quatorze ans.\nSoy español. = Je suis espagnol. Vivo en Sevilla. = J’habite à Séville.\nHablo español y un poco de francés. = Je parle espagnol et un peu français."
+        },
+        {
+          "title": "Repère 2",
+          "text": "¿Cómo te llamas? ¿Cuántos años tienes? ¿Dónde vives?\nPour présenter une autre personne : Se llama Inés. Tiene trece años. Vive en Valencia.\n13 trece ; 14 catorce ; 15 quince. L’âge se construit avec tener : tengo, tienes, tiene."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Números en acción",
+      "objective": "Je comprends les nombres et les prix.",
+      "paperPage": 3,
+      "documentHtml": "<b>LA PAPELERÍA</b><br/>Cuaderno: 3 euros • Bolígrafo: 2 euros • Mochila: 24 euros<br/>Pedido 58: dos cuadernos y un bolígrafo.<br/>Cliente 31: una mochila.",
+      "copyLesson": {
+        "title": "Números en acción",
+        "lines": [
+          "0 cero ; 1 uno ; 2 dos ; 3 tres ; 4 cuatro ; 5 cinco.",
+          "6 seis ; 7 siete ; 8 ocho ; 9 nueve ; 10 diez.",
+          "11 once ; 12 doce ; 13 trece ; 14 catorce ; 15 quince.",
+          "16 dieciséis ; 17 diecisiete ; 18 dieciocho ; 19 diecinueve ; 20 veinte.",
+          "21 veintiuno ; 22 veintidós ; 23 veintitrés ; 24 veinticuatro ; 25 veinticinco.",
+          "26 veintiséis ; 27 veintisiete ; 28 veintiocho ; 29 veintinueve ; 30 treinta.",
+          "40 cuarenta ; 50 cincuenta ; 60 sesenta ; 70 setenta ; 80 ochenta ; 90 noventa ; 100 cien.",
+          "Après 30 : dizaine + y + unité. 31 treinta y uno ; 58 cincuenta y ocho.",
+          "101 ciento uno ; 120 ciento veinte ; 1 000 mil. Devant un nom masculin : un libro, veintiún libros."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je calcule",
+          "Commande 58 : total = ................ euros.<br/>Écris ce total en espagnol : ...............................................................",
+          0
+        ],
+        [
+          "Je déchiffre",
+          "24 → ....................................... ; 31 → .......................................<br/>cincuenta y ocho → ........ ; setenta y dos → ........ ; cien → ........",
+          1
+        ]
+      ],
+      "paperSolutions": [
+        "Deux cahiers à 3 € et un stylo à 2 € : 8 euros, ocho euros.",
+        "veinticuatro ; treinta y uno ; 58 ; 72 ; 100."
+      ],
+      "mission": "Crée une mini-boutique avec trois objets de ton choix. Écris les prix en lettres, entre 1 et 99 euros. Calcule le prix de deux objets.",
+      "model": "Un libro: doce euros. Un cuaderno: cuatro euros. Una mochila: treinta y cinco euros. El libro y el cuaderno: dieciséis euros.",
+      "criteria": [
+        "Je lis les nombres jusqu’à 100.",
+        "J’utilise y entre une dizaine et une unité après 30."
+      ],
+      "help": [
+        "Relis les familles 16-19 et 21-29.",
+        "Pour 42, pars de cuarenta et ajoute y dos."
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "23 s’écrit…",
+          "options": [
+            "veintitrés",
+            "veinte tres",
+            "treinta y dos"
+          ],
+          "correctIndex": 0,
+          "hint": "Les nombres 21-29 s’écrivent en un mot.",
+          "explanation": "23 = veintitrés, avec un accent sur é.",
+          "phase": "training",
+          "id": "S03-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "54 s’écrit…",
+          "options": [
+            "cinco cuatro",
+            "cincuenta y cuatro",
+            "cuarenta y cinco"
+          ],
+          "correctIndex": 1,
+          "hint": "Commence par la dizaine 50.",
+          "explanation": "54 = cincuenta y cuatro.",
+          "phase": "training",
+          "id": "S03-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Setenta y dos correspond à…",
+          "options": [
+            "27",
+            "62",
+            "72"
+          ],
+          "correctIndex": 2,
+          "hint": "Setenta = 70.",
+          "explanation": "70 + 2 = 72.",
+          "phase": "training",
+          "id": "S03-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "100 se dit…",
+          "options": [
+            "ciento",
+            "cien",
+            "mil"
+          ],
+          "correctIndex": 1,
+          "hint": "Pour 100 exactement, le mot est plus court.",
+          "explanation": "100 = cien ; 101 = ciento uno ; 1 000 = mil.",
+          "phase": "training",
+          "id": "S03-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Un livre à 12 € et un stylo à 2 € coûtent…",
+          "options": [
+            "trece euros",
+            "catorce euros",
+            "quince euros"
+          ],
+          "correctIndex": 1,
+          "hint": "Calcule 12 + 2.",
+          "explanation": "14 = catorce.",
+          "phase": "exit",
+          "id": "S03-E05"
+        }
+      ],
+      "audio": {
+        "id": "A03",
+        "src": null,
+        "status": "to_record",
+        "transcript": "El cuaderno cuesta tres euros. El bolígrafo cuesta dos euros. La mochila cuesta veinticuatro euros. El pedido cincuenta y ocho tiene dos cuadernos y un bolígrafo."
+      },
+      "teachingNote": "Leçon longue : la présenter en deux blocs de copie, 0-30 puis dizaines. Le mémo numérique étend aux centaines : doscientos, trescientos, cuatrocientos, quinientos, seiscientos, setecientos, ochocientos, novecientos.",
+      "visual": "numbers",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S03, écris le titre « Números en acción », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S03 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "papelería": "papeterie",
+        "cuaderno": "cahier",
+        "bolígrafo": "stylo",
+        "mochila": "sac à dos",
+        "pedido": "commande",
+        "cliente": "client",
+        "libro": "livre",
+        "euros": "euros"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "0 cero ; 1 uno ; 2 dos ; 3 tres ; 4 cuatro ; 5 cinco.\n6 seis ; 7 siete ; 8 ocho ; 9 nueve ; 10 diez.\n11 once ; 12 doce ; 13 trece ; 14 catorce ; 15 quince."
+        },
+        {
+          "title": "Repère 2",
+          "text": "16 dieciséis ; 17 diecisiete ; 18 dieciocho ; 19 diecinueve ; 20 veinte.\n21 veintiuno ; 22 veintidós ; 23 veintitrés ; 24 veinticuatro ; 25 veinticinco.\n26 veintiséis ; 27 veintisiete ; 28 veintiocho ; 29 veintinueve ; 30 treinta."
+        },
+        {
+          "title": "Repère 3",
+          "text": "40 cuarenta ; 50 cincuenta ; 60 sesenta ; 70 setenta ; 80 ochenta ; 90 noventa ; 100 cien.\nAprès 30 : dizaine + y + unité. 31 treinta y uno ; 58 cincuenta y ocho.\n101 ciento uno ; 120 ciento veinte ; 1 000 mil. Devant un nom masculin : un libro, veintiún libros."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Mi gente",
+      "objective": "Je présente une personne et je décris.",
+      "paperPage": 4,
+      "documentHtml": "Soy Inés. Mi hermano se llama Dani y tiene dieciséis años. Es simpático y tiene el pelo corto. Mi madre se llama Ana. Es divertida. Mi amigo Leo es tranquilo. Tenemos una gata negra: Luna.",
+      "copyLesson": {
+        "title": "Mi gente",
+        "lines": [
+          "Mi madre = ma mère ; mi padre = mon père ; mi hermano/a = mon frère / ma sœur.",
+          "Mi amigo/a = mon ami(e). Mi amigo / mis amigos ; tu hermana / tus hermanas.",
+          "Es simpático/simpática. Es tranquilo/tranquila. Es divertido/divertida.",
+          "Tiene el pelo corto/largo. = Il/elle a les cheveux courts/longs.",
+          "L’article et l’adjectif s’accordent : un amigo simpático → una amiga simpática → unas amigas simpáticas.",
+          "Articles définis : el, la, los, las. Articles indéfinis : un, una, unos, unas.",
+          "Es décrit ici le caractère ; tiene indique l’âge ou ce que la personne a. Y = et ; pero = mais."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je repère les personnes",
+          "Qui est Dani pour Inés ? ...............................................................<br/>Qui est Ana ? ................................ Qui est tranquille ? ........................",
+          0
+        ],
+        [
+          "Je vérifie les accords",
+          "una amiga simpátic…… ; dos gatos negr…… ; mis herman…… (sœurs).<br/>Mi amigo .............. simpático. Mi hermana .............. trece años.",
+          1
+        ]
+      ],
+      "paperSolutions": [
+        "Dani est son frère ; Ana sa mère ; Leo est tranquille.",
+        "simpática ; negros ; hermanas ; es ; tiene."
+      ],
+      "mission": "Présente deux proches ou personnages fictifs en quatre phrases : prénom, lien avec toi et caractère ou apparence.",
+      "model": "Mi hermana se llama Eva. Es divertida y tiene el pelo largo. Mi amigo se llama Hugo. Es tranquilo.",
+      "criteria": [
+        "Je distingue es et tiene.",
+        "Je vérifie le féminin et le pluriel."
+      ],
+      "help": [
+        "Choisis un lien puis une caractéristique.",
+        "Mi… se llama… Es… / Tiene…"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Una amiga…",
+          "options": [
+            "simpático",
+            "simpática",
+            "simpáticos"
+          ],
+          "correctIndex": 1,
+          "hint": "Amiga est féminin singulier.",
+          "explanation": "L’adjectif s’accorde : una amiga simpática.",
+          "phase": "training",
+          "id": "S04-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le pluriel de mi amigo est…",
+          "options": [
+            "mis amigos",
+            "mi amigos",
+            "mis amigo"
+          ],
+          "correctIndex": 0,
+          "hint": "Le nom et le possessif changent.",
+          "explanation": "Mi amigo → mis amigos.",
+          "phase": "training",
+          "id": "S04-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Mi hermana ___ catorce años.",
+          "options": [
+            "es",
+            "está",
+            "tiene"
+          ],
+          "correctIndex": 2,
+          "hint": "L’âge se construit avec tener.",
+          "explanation": "Ella tiene catorce años.",
+          "phase": "training",
+          "id": "S04-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "El gato negro au pluriel donne…",
+          "options": [
+            "los gato negros",
+            "los gatos negros",
+            "las gatos negras"
+          ],
+          "correctIndex": 1,
+          "hint": "Tous les mots doivent être au pluriel.",
+          "explanation": "El gato negro → los gatos negros.",
+          "phase": "training",
+          "id": "S04-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Pour dire « Mon ami est calme » :",
+          "options": [
+            "Mi amigo es tranquilo.",
+            "Mi amigo tiene tranquilo.",
+            "Mi amigo hay tranquilo."
+          ],
+          "correctIndex": 0,
+          "hint": "Il s’agit d’un trait de caractère.",
+          "explanation": "Ser sert ici à décrire : es tranquilo.",
+          "phase": "exit",
+          "id": "S04-E05"
+        }
+      ],
+      "audio": {
+        "id": "A04",
+        "src": null,
+        "status": "to_record",
+        "transcript": "Soy Inés. Mi hermano se llama Dani y tiene dieciséis años. Es simpático y tiene el pelo corto. Mi madre se llama Ana. Es divertida. Mi amigo Leo es tranquilo. Tenemos una gata negra: Luna."
+      },
+      "teachingNote": "",
+      "visual": "loisirs",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S04, écris le titre « Mi gente », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S04 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "hermano": "frère",
+        "madre": "mère",
+        "amigo": "ami",
+        "tenemos": "nous avons",
+        "gata": "chatte",
+        "negra": "noire",
+        "simpático": "sympathique",
+        "divertida": "amusante",
+        "tranquilo": "calme",
+        "pelo corto": "cheveux courts"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Mi madre = ma mère ; mi padre = mon père ; mi hermano/a = mon frère / ma sœur.\nMi amigo/a = mon ami(e). Mi amigo / mis amigos ; tu hermana / tus hermanas.\nEs simpático/simpática. Es tranquilo/tranquila. Es divertido/divertida."
+        },
+        {
+          "title": "Repère 2",
+          "text": "Tiene el pelo corto/largo. = Il/elle a les cheveux courts/longs.\nL’article et l’adjectif s’accordent : un amigo simpático → una amiga simpática → unas amigas simpáticas.\nArticles définis : el, la, los, las. Articles indéfinis : un, una, unos, unas."
+        },
+        {
+          "title": "Repère 3",
+          "text": "Es décrit ici le caractère ; tiene indique l’âge ou ce que la personne a. Y = et ; pero = mais."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "En el instituto",
+      "objective": "Je nomme et je situe dans le collège.",
+      "paperPage": 5,
+      "documentHtml": "En mi mochila hay un cuaderno, dos bolígrafos y un libro. Mi mochila está debajo de la mesa. La biblioteca está al lado del patio. Hoy necesito un lápiz para la clase de dibujo.",
+      "copyLesson": {
+        "title": "En el instituto",
+        "lines": [
+          "Mochila = sac ; cuaderno = cahier ; bolígrafo = stylo ; libro = livre ; lápiz = crayon.",
+          "Mesa = table ; biblioteca = bibliothèque ; patio = cour ; aula = salle de classe.",
+          "Hay un libro. Hay dos libros. = Il y a un livre / deux livres. No hay = il n’y a pas.",
+          "El libro está en la mesa. = Le livre est sur la table. Los libros están en la mesa.",
+          "Es un libro. = C’est un livre. Necesito un lápiz. = J’ai besoin d’un crayon.",
+          "En = dans/sur ; debajo de = sous ; al lado de = à côté de. De + el = del."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je comprends",
+          "Nomme en français les objets du sac. Quel objet faut-il pour le dessin ?",
+          2
+        ],
+        [
+          "Je choisis",
+          "En mi mochila .............. un libro. El libro .............. en la mesa.<br/>.............. un libro de español. Choisis : hay / está / es.",
+          1
+        ]
+      ],
+      "paperSolutions": [
+        "Un cahier, deux stylos et un livre. Il faut un crayon pour le dessin.",
+        "hay ; está ; es."
+      ],
+      "mission": "Écris quatre phrases : deux sur ce qu’il y a ou non dans ton sac, une sur la place d’un objet et une sur un objet dont tu as besoin.",
+      "model": "En mi mochila hay un cuaderno. No hay un libro. Mi mochila está debajo de la mesa. Necesito un bolígrafo.",
+      "criteria": [
+        "Je distingue hay, está et es.",
+        "Je sais nommer un objet utile en cours."
+      ],
+      "help": [
+        "Hay introduit un objet ; está situe un objet connu.",
+        "En mi mochila hay… / Mi… está…"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "En mi clase ___ dos mesas.",
+          "options": [
+            "hay",
+            "está",
+            "es"
+          ],
+          "correctIndex": 0,
+          "hint": "Tu indiques ce qui existe.",
+          "explanation": "Hay ne change pas entre le singulier et le pluriel.",
+          "phase": "training",
+          "id": "S05-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Mi mochila ___ debajo de la mesa.",
+          "options": [
+            "hay",
+            "está",
+            "es"
+          ],
+          "correctIndex": 1,
+          "hint": "Tu situes un sac précis.",
+          "explanation": "Está indique ici où se trouve la mochila.",
+          "phase": "training",
+          "id": "S05-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "« À côté de la cour » se dit…",
+          "options": [
+            "al lado del patio",
+            "debajo del patio",
+            "en la mochila"
+          ],
+          "correctIndex": 0,
+          "hint": "Al lado de signifie à côté de.",
+          "explanation": "De + el devient del : al lado del patio.",
+          "phase": "training",
+          "id": "S05-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "« J’ai besoin d’un crayon » :",
+          "options": [
+            "Hay un lápiz.",
+            "Soy un lápiz.",
+            "Necesito un lápiz."
+          ],
+          "correctIndex": 2,
+          "hint": "Necesitar exprime le besoin.",
+          "explanation": "Necesito un lápiz = j’ai besoin d’un crayon.",
+          "phase": "training",
+          "id": "S05-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Los libros ___ en la mesa.",
+          "options": [
+            "está",
+            "están",
+            "hay"
+          ],
+          "correctIndex": 1,
+          "hint": "Le sujet est pluriel.",
+          "explanation": "El libro está ; los libros están.",
+          "phase": "exit",
+          "id": "S05-E05"
+        }
+      ],
+      "audio": {
+        "id": "A05",
+        "src": null,
+        "status": "to_record",
+        "transcript": "En mi mochila hay un cuaderno, dos bolígrafos y un libro. Mi mochila está debajo de la mesa. La biblioteca está al lado del patio. Hoy necesito un lápiz para la clase de dibujo."
+      },
+      "teachingNote": "",
+      "visual": "bureau",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S05, écris le titre « En el instituto », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S05 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "en": "dans / sur",
+        "debajo de": "sous",
+        "al lado del": "à côté du",
+        "necesito": "j’ai besoin de",
+        "lápiz": "crayon",
+        "dibujo": "dessin",
+        "aula": "salle de classe"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Mochila = sac ; cuaderno = cahier ; bolígrafo = stylo ; libro = livre ; lápiz = crayon.\nMesa = table ; biblioteca = bibliothèque ; patio = cour ; aula = salle de classe.\nHay un libro. Hay dos libros. = Il y a un livre / deux livres. No hay = il n’y a pas."
+        },
+        {
+          "title": "Repère 2",
+          "text": "El libro está en la mesa. = Le livre est sur la table. Los libros están en la mesa.\nEs un libro. = C’est un livre. Necesito un lápiz. = J’ai besoin d’un crayon.\nEn = dans/sur ; debajo de = sous ; al lado de = à côté de. De + el = del."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "Mis favoritos",
+      "objective": "Je parle de mes goûts et je les explique.",
+      "paperPage": 6,
+      "documentHtml": "LEO: Me gustan los videojuegos y me encanta dibujar. No me gusta bailar.<br/>INÉS: A mí también me gustan los videojuegos, pero prefiero leer. Me gusta la música porque es relajante.<br/>ALMA: A mí tampoco me gusta bailar. No me gusta cantar.",
+      "copyLesson": {
+        "title": "Mis favoritos",
+        "lines": [
+          "Me gusta la música. Me gusta leer. = J’aime la musique. J’aime lire.",
+          "Me gustan los videojuegos. = J’aime les jeux vidéo.",
+          "Gusta + nom singulier ou infinitif ; gustan + nom pluriel.",
+          "Me encanta / me encantan = j’adore. No me gusta / no me gustan = je n’aime pas.",
+          "A mí también = moi aussi ; a mí tampoco = moi non plus.",
+          "Me gusta leer porque es interesante. Porque = parce que ; interesante = intéressant ; divertido = amusant.",
+          "Leer = lire ; dibujar = dessiner ; bailar = danser ; escuchar música = écouter de la musique."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je trouve les points communs",
+          "Quel goût Leo et Inés partagent-ils ? Quelle activité Leo et Alma n’aiment-ils pas ?",
+          2
+        ],
+        [
+          "Je répare",
+          "Corrige : Me gustan dibujar. / Me gusta los videojuegos.",
+          2
+        ]
+      ],
+      "paperSolutions": [
+        "Ils aiment les jeux vidéo ; Leo et Alma n’aiment pas danser.",
+        "Me gusta dibujar. / Me gustan los videojuegos."
+      ],
+      "mission": "Écris un message avec deux goûts positifs, un goût négatif, une explication avec porque et une question.",
+      "model": "Me gustan los videojuegos. Me encanta leer porque es interesante. No me gusta bailar. ¿Te gusta la música?",
+      "criteria": [
+        "Je choisis gusta ou gustan selon ce qui suit.",
+        "Je justifie un goût avec porque."
+      ],
+      "help": [
+        "Regarde si ce qui suit est un nom pluriel ou un infinitif.",
+        "Me gusta… porque… ¿Te gusta…?"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Me ___ leer.",
+          "options": [
+            "gusta",
+            "gustan",
+            "gustas"
+          ],
+          "correctIndex": 0,
+          "hint": "Leer est un infinitif.",
+          "explanation": "On utilise gusta devant un infinitif.",
+          "phase": "training",
+          "id": "S06-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Me ___ los deportes.",
+          "options": [
+            "gusta",
+            "gustan",
+            "gusto"
+          ],
+          "correctIndex": 1,
+          "hint": "Los deportes est au pluriel.",
+          "explanation": "On utilise gustan devant un nom pluriel.",
+          "phase": "training",
+          "id": "S06-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "« No me gusta bailar. » Tu es d’accord :",
+          "options": [
+            "A mí también.",
+            "A mí tampoco.",
+            "Porque."
+          ],
+          "correctIndex": 1,
+          "hint": "Tu partages une idée négative.",
+          "explanation": "Tampoco = non plus ; también = aussi.",
+          "phase": "training",
+          "id": "S06-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Me gusta leer ___ es interesante.",
+          "options": [
+            "pero",
+            "porque",
+            "también"
+          ],
+          "correctIndex": 1,
+          "hint": "Tu introduis une raison.",
+          "explanation": "Porque introduit une explication.",
+          "phase": "training",
+          "id": "S06-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Choisis la phrase correcte.",
+          "options": [
+            "Me gustan cantar.",
+            "Me gusta las series.",
+            "Me gustan las series."
+          ],
+          "correctIndex": 2,
+          "hint": "Las series est un groupe pluriel.",
+          "explanation": "Me gustan las series.",
+          "phase": "exit",
+          "id": "S06-E05"
+        }
+      ],
+      "audio": {
+        "id": "A06",
+        "src": null,
+        "status": "to_record",
+        "transcript": "LEO: Me gustan los videojuegos y me encanta dibujar. No me gusta bailar. INÉS: A mí también me gustan los videojuegos, pero prefiero leer. Me gusta la música porque es relajante. ALMA: A mí tampoco me gusta bailar. No me gusta cantar."
+      },
+      "teachingNote": "",
+      "visual": "loisirs",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S06, écris le titre « Mis favoritos », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S06 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "videojuegos": "jeux vidéo",
+        "dibujar": "dessiner",
+        "bailar": "danser",
+        "prefiero": "je préfère",
+        "leer": "lire",
+        "relajante": "relaxant",
+        "cantar": "chanter",
+        "deportes": "sports",
+        "series": "séries"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Me gusta la música. Me gusta leer. = J’aime la musique. J’aime lire.\nMe gustan los videojuegos. = J’aime les jeux vidéo.\nGusta + nom singulier ou infinitif ; gustan + nom pluriel."
+        },
+        {
+          "title": "Repère 2",
+          "text": "Me encanta / me encantan = j’adore. No me gusta / no me gustan = je n’aime pas.\nA mí también = moi aussi ; a mí tampoco = moi non plus.\nMe gusta leer porque es interesante. Porque = parce que ; interesante = intéressant ; divertido = amusant."
+        },
+        {
+          "title": "Repère 3",
+          "text": "Leer = lire ; dibujar = dessiner ; bailar = danser ; escuchar música = écouter de la musique."
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "Modo presente",
+      "objective": "Je conjugue les verbes réguliers.",
+      "paperPage": 7,
+      "documentHtml": "Los lunes escucho música. Mi amiga lee cómics. Nosotros compartimos fotos y hablamos español. Mis amigos viven en Valencia. No estudiamos por la noche.",
+      "copyLesson": {
+        "title": "Modo presente",
+        "lines": [
+          "Le présent permet de parler d’une action actuelle ou habituelle. Le sujet peut être omis : Hablo español.",
+          "Pour un verbe régulier : enlève -ar, -er ou -ir ; ajoute la terminaison du sujet.",
+          "Ordre : yo / tú / él, ella, usted / nosotros(as) / vosotros(as) / ellos, ellas, ustedes.",
+          "HABLAR : hablo, hablas, habla, hablamos, habláis, hablan.",
+          "COMER : como, comes, come, comemos, coméis, comen.",
+          "VIVIR : vivo, vives, vive, vivimos, vivís, viven.",
+          "No se place avant le verbe : No hablo inglés. Ser, tener et ir sont irréguliers.",
+          "Vosotros est le vous familier en Espagne. Ustedes prend la forme de ellos et sert aussi de vous pluriel courant en Amérique hispanique."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je cherche le sujet",
+          "Qui lit des BD ? ................................ Qui vit à Valencia ? ........................<br/>Relève « nous parlons » : .................................................................",
+          0
+        ],
+        [
+          "Je conjugue",
+          "Nosotros (hablar) ................................ español.<br/>Tú (comer) ................................ en casa.<br/>Ellas (vivir) ................................ en Madrid.",
+          0
+        ]
+      ],
+      "paperSolutions": [
+        "Mi amiga ; mis amigos ; hablamos.",
+        "hablamos ; comes ; viven."
+      ],
+      "mission": "Écris trois phrases : une sur toi, une sur un ami et une sur vous deux. Utilise les trois groupes avec escuchar, leer et vivir. Rends une phrase négative.",
+      "model": "Escucho música. Mi amiga lee cómics. No vivimos en Madrid.",
+      "criteria": [
+        "Je repère le sujet avant de conjuguer.",
+        "J’utilise un verbe de chaque groupe."
+      ],
+      "help": [
+        "Sujet → radical → terminaison.",
+        "Yo escuch… / Mi amigo le… / Nosotros viv…"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Nosotros (hablar)…",
+          "options": [
+            "hablan",
+            "hablamos",
+            "habláis"
+          ],
+          "correctIndex": 1,
+          "hint": "Nosotros signifie nous.",
+          "explanation": "Hablar prend -amos avec nosotros.",
+          "phase": "training",
+          "id": "S07-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Tú (comer)…",
+          "options": [
+            "comes",
+            "como",
+            "comen"
+          ],
+          "correctIndex": 0,
+          "hint": "Tú signifie tu.",
+          "explanation": "Le groupe -er prend -es avec tú.",
+          "phase": "training",
+          "id": "S07-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Ellas (vivir)…",
+          "options": [
+            "vivimos",
+            "viven",
+            "vives"
+          ],
+          "correctIndex": 1,
+          "hint": "Ellas signifie elles.",
+          "explanation": "Vivir prend -en avec ellas.",
+          "phase": "training",
+          "id": "S07-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Vosotros (escuchar)…",
+          "options": [
+            "escuchan",
+            "escuchamos",
+            "escucháis"
+          ],
+          "correctIndex": 2,
+          "hint": "Regarde la ligne vosotros.",
+          "explanation": "Les verbes en -ar prennent -áis avec vosotros.",
+          "phase": "training",
+          "id": "S07-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Mets « Hablo inglés » à la forme négative.",
+          "options": [
+            "Hablo no inglés.",
+            "No hablo inglés.",
+            "No hablar inglés."
+          ],
+          "correctIndex": 1,
+          "hint": "Le verbe reste conjugué.",
+          "explanation": "No se place juste avant le verbe conjugué.",
+          "phase": "exit",
+          "id": "S07-E05"
+        }
+      ],
+      "audio": {
+        "id": "A07",
+        "src": null,
+        "status": "to_record",
+        "transcript": "Los lunes escucho música. Mi amiga lee cómics. Nosotros compartimos fotos y hablamos español. Mis amigos viven en Valencia. No estudiamos por la noche."
+      },
+      "teachingNote": "",
+      "visual": "bureau",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S07, écris le titre « Modo presente », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S07 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "escuchar": "écouter",
+        "leer": "lire",
+        "compartir": "partager",
+        "hablar": "parler",
+        "vivir": "habiter / vivre",
+        "estudiar": "étudier",
+        "comer": "manger",
+        "cómics": "BD",
+        "por la noche": "le soir / la nuit",
+        "en casa": "à la maison"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Le présent permet de parler d’une action actuelle ou habituelle. Le sujet peut être omis : Hablo español.\nPour un verbe régulier : enlève -ar, -er ou -ir ; ajoute la terminaison du sujet.\nOrdre : yo / tú / él, ella, usted / nosotros(as) / vosotros(as) / ellos, ellas, ustedes."
+        },
+        {
+          "title": "Repère 2",
+          "text": "HABLAR : hablo, hablas, habla, hablamos, habláis, hablan.\nCOMER : como, comes, come, comemos, coméis, comen.\nVIVIR : vivo, vives, vive, vivimos, vivís, viven."
+        },
+        {
+          "title": "Repère 3",
+          "text": "No se place avant le verbe : No hablo inglés. Ser, tener et ir sont irréguliers.\nVosotros est le vous familier en Espagne. Ustedes prend la forme de ellos et sert aussi de vous pluriel courant en Amérique hispanique."
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "Mi calendario",
+      "objective": "Je comprends les jours, les mois et les dates.",
+      "paperPage": 8,
+      "documentHtml": "AGENDA DE OCTUBRE<br/>Lunes 12: club de lectura, aula 8.<br/>Miércoles 14: torneo de videojuegos, sala 23.<br/>Viernes 16: cumpleaños de Inés. ¡Trece años!<br/>Sábado 17: concierto, entrada 12 euros.",
+      "copyLesson": {
+        "title": "Mi calendario",
+        "lines": [
+          "Jours : lunes, martes, miércoles, jueves, viernes, sábado, domingo.",
+          "Mois : enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.",
+          "Hoy es lunes, doce de octubre. = Aujourd’hui, c’est lundi 12 octobre.",
+          "Mi cumpleaños es el dieciséis de octubre. = Mon anniversaire est le 16 octobre.",
+          "Hoy = aujourd’hui ; mañana = demain ; ayer = hier.",
+          "El lunes = lundi (un lundi précis) ; los lunes = tous les lundis.",
+          "Les jours et les mois commencent par une minuscule. Une date : el + nombre + de + mois."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je lis l’agenda",
+          "Tournoi : jour ................................ ; salle ................ .<br/>Anniversaire : date ................................ ; âge ................ .",
+          0
+        ],
+        [
+          "Je construis une date",
+          "Écris en espagnol : le 7 janvier ; le 22 juin. Puis le jour après jueves.",
+          2
+        ]
+      ],
+      "paperSolutions": [
+        "Mercredi 14 octobre ; salle 23 ; vendredi 16 octobre ; 13 ans.",
+        "el siete de enero ; el veintidós de junio ; viernes."
+      ],
+      "mission": "Crée trois rendez-vous : anniversaire, tournoi et concert. Écris une date en lettres pour chacun. Puis lis ton agenda à voix haute.",
+      "model": "El doce de agosto: mi cumpleaños. El veinte de septiembre: torneo. El tres de octubre: concierto.",
+      "criteria": [
+        "Je connais l’ordre des jours et des mois.",
+        "Je construis une date avec de."
+      ],
+      "help": [
+        "Regarde la liste des mois dans la leçon.",
+        "El… de… : concierto / torneo / cumpleaños."
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Après jueves vient…",
+          "options": [
+            "martes",
+            "viernes",
+            "domingo"
+          ],
+          "correctIndex": 1,
+          "hint": "Cherche le cinquième jour de la liste.",
+          "explanation": "Lunes, martes, miércoles, jueves, viernes.",
+          "phase": "training",
+          "id": "S08-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Avant septiembre vient…",
+          "options": [
+            "octubre",
+            "agosto",
+            "julio"
+          ],
+          "correctIndex": 1,
+          "hint": "Septiembre est le neuvième mois.",
+          "explanation": "Agosto précède septiembre.",
+          "phase": "training",
+          "id": "S08-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le 7 janvier se dit…",
+          "options": [
+            "el siete de enero",
+            "el siete enero",
+            "el enero siete"
+          ],
+          "correctIndex": 0,
+          "hint": "Relie le nombre et le mois.",
+          "explanation": "La date utilise de : el siete de enero.",
+          "phase": "training",
+          "id": "S08-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "« Los lunes » signifie…",
+          "options": [
+            "demain",
+            "tous les lundis",
+            "lundi dernier"
+          ],
+          "correctIndex": 1,
+          "hint": "Le pluriel indique une répétition.",
+          "explanation": "Los lunes exprime une habitude hebdomadaire.",
+          "phase": "training",
+          "id": "S08-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le 22 juin se dit…",
+          "options": [
+            "el veintidós de julio",
+            "el veintidós de junio",
+            "el doce de junio"
+          ],
+          "correctIndex": 1,
+          "hint": "Junio et julio sont deux mois différents.",
+          "explanation": "Junio = juin ; julio = juillet.",
+          "phase": "exit",
+          "id": "S08-E05"
+        }
+      ],
+      "audio": {
+        "id": "A08",
+        "src": null,
+        "status": "to_record",
+        "transcript": "El club de lectura es el lunes doce de octubre. El torneo es el miércoles catorce, en la sala veintitrés. El cumpleaños de Inés es el viernes dieciséis. El concierto es el sábado diecisiete."
+      },
+      "teachingNote": "",
+      "visual": "calendar",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S08, écris le titre « Mi calendario », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S08 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "club de lectura": "club de lecture",
+        "torneo": "tournoi",
+        "sala": "salle",
+        "cumpleaños": "anniversaire",
+        "concierto": "concert",
+        "entrada": "entrée / billet"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Jours : lunes, martes, miércoles, jueves, viernes, sábado, domingo.\nMois : enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.\nHoy es lunes, doce de octubre. = Aujourd’hui, c’est lundi 12 octobre."
+        },
+        {
+          "title": "Repère 2",
+          "text": "Mi cumpleaños es el dieciséis de octubre. = Mon anniversaire est le 16 octobre.\nHoy = aujourd’hui ; mañana = demain ; ayer = hier.\nEl lunes = lundi (un lundi précis) ; los lunes = tous les lundis."
+        },
+        {
+          "title": "Repère 3",
+          "text": "Les jours et les mois commencent par une minuscule. Une date : el + nombre + de + mois."
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "¿Qué hora es?",
+      "objective": "Je lis l’heure et je donne un horaire.",
+      "paperPage": 9,
+      "documentHtml": "HORARIO DEL VIERNES<br/>08:00 • Matemáticas<br/>09:15 • Español<br/>10:30 • Recreo<br/>10:45 • Música<br/>12:00 • Educación física<br/>13:30 • Comida",
+      "copyLesson": {
+        "title": "¿Qué hora es?",
+        "lines": [
+          "¿Qué hora es? Es la una. Son las dos. Seule une heure prend es la.",
+          "09:15 : son las nueve y cuarto. 10:30 : son las diez y media.",
+          "10:45 : son las once menos cuarto. 07:50 : son las ocho menos diez.",
+          "¿A qué hora? A la una / a las dos. Pour un horaire, on utilise a la / a las.",
+          "Tengo español a las nueve y cuarto. = J’ai espagnol à neuf heures et quart.",
+          "18:30 : las seis y media de la tarde. De la mañana = du matin ; de la noche = du soir / de la nuit."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je lis l’emploi du temps",
+          "Espagnol : ............................ ; récréation : ............................ .",
+          1
+        ],
+        [
+          "Je lis les horloges",
+          "Écris les heures A, B et C en espagnol.",
+          2
+        ]
+      ],
+      "paperSolutions": [
+        "9 h 15 ; 10 h 30.",
+        "A : Son las dos y cuarto. B : Son las seis y media. C : Son las diez menos cuarto."
+      ],
+      "mission": "Propose trois rendez-vous : indique un jour, une activité et une heure en lettres. Utilise au moins une fois y media ou y cuarto.",
+      "model": "El lunes tengo música a las nueve. El martes tengo español a las diez y media. El viernes tengo dibujo a la una.",
+      "criteria": [
+        "Je distingue es la et son las.",
+        "J’utilise a la / a las pour un rendez-vous."
+      ],
+      "help": [
+        "Dis d’abord l’heure, puis ajoute a pour le rendez-vous.",
+        "El lunes tengo… a las…"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Il est une heure.",
+          "options": [
+            "Son las una.",
+            "Es la una.",
+            "Es las una."
+          ],
+          "correctIndex": 1,
+          "hint": "Une heure est au singulier.",
+          "explanation": "On dit es la una ; les autres heures prennent son las.",
+          "phase": "training",
+          "id": "S09-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "09:15 correspond à…",
+          "options": [
+            "las nueve y cuarto",
+            "las nueve y media",
+            "las diez menos cuarto"
+          ],
+          "correctIndex": 0,
+          "hint": "Un quart représente quinze minutes.",
+          "explanation": "9 h 15 = las nueve y cuarto.",
+          "phase": "training",
+          "id": "S09-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "10:45 correspond à…",
+          "options": [
+            "las diez y cuarto",
+            "las diez y media",
+            "las once menos cuarto"
+          ],
+          "correctIndex": 2,
+          "hint": "Il manque un quart d’heure avant onze heures.",
+          "explanation": "10 h 45 = las once menos cuarto.",
+          "phase": "training",
+          "id": "S09-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Tengo música ___ las nueve.",
+          "options": [
+            "son",
+            "a",
+            "es"
+          ],
+          "correctIndex": 1,
+          "hint": "Tu indiques un horaire.",
+          "explanation": "Pour un horaire : a las nueve = à neuf heures.",
+          "phase": "training",
+          "id": "S09-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le cours est à une heure.",
+          "options": [
+            "La clase es a la una.",
+            "La clase es son las una.",
+            "La clase es a las una."
+          ],
+          "correctIndex": 0,
+          "hint": "Le singulier reste nécessaire avec une heure.",
+          "explanation": "A la una = à une heure.",
+          "phase": "exit",
+          "id": "S09-E05"
+        }
+      ],
+      "audio": {
+        "id": "A09",
+        "src": null,
+        "status": "to_record",
+        "transcript": "El viernes tengo matemáticas a las ocho. Tengo español a las nueve y cuarto. El recreo es a las diez y media. Tengo música a las once menos cuarto. La comida es a la una y media de la tarde."
+      },
+      "teachingNote": "",
+      "visual": "clocks",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S09, écris le titre « ¿Qué hora es? », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S09 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "matemáticas": "mathématiques",
+        "recreo": "récréation",
+        "música": "musique",
+        "educación física": "EPS",
+        "comida": "repas",
+        "clase": "cours",
+        "dibujo": "dessin"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "¿Qué hora es? Es la una. Son las dos. Seule une heure prend es la.\n09:15 : son las nueve y cuarto. 10:30 : son las diez y media.\n10:45 : son las once menos cuarto. 07:50 : son las ocho menos diez."
+        },
+        {
+          "title": "Repère 2",
+          "text": "¿A qué hora? A la una / a las dos. Pour un horaire, on utilise a la / a las.\nTengo español a las nueve y cuarto. = J’ai espagnol à neuf heures et quart.\n18:30 : las seis y media de la tarde. De la mañana = du matin ; de la noche = du soir / de la nuit."
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "Un día conmigo",
+      "objective": "Je raconte une journée simple.",
+      "paperPage": 10,
+      "documentHtml": "Me llamo Alma. Normalmente me levanto a las siete. Primero desayuno y después voy al instituto. A las cinco hago los deberes. A veces juego a los videojuegos. Por la noche leo y me acuesto a las diez.",
+      "copyLesson": {
+        "title": "Un día conmigo",
+        "lines": [
+          "Me levanto = je me lève ; desayuno = je prends mon petit déjeuner ; voy al instituto = je vais au collège.",
+          "Hago los deberes = je fais mes devoirs ; me acuesto = je me couche.",
+          "Levantarse : me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan.",
+          "Ir : voy, vas, va, vamos, vais, van. Hacer : hago, haces, hace, hacemos, hacéis, hacen.",
+          "Formes utiles : juego / juegas / juega ; me acuesto / te acuestas / se acuesta.",
+          "Primero = d’abord ; después / luego = ensuite ; finalmente = enfin.",
+          "Siempre = toujours ; normalmente = habituellement ; a veces = parfois ; nunca = jamais."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je suis Alma",
+          "Heure du lever : ................ . À cinq heures : .......................................<br/>Activité qu’elle fait parfois : ................................................................",
+          0
+        ],
+        [
+          "Je change de personne",
+          "« Me levanto a las siete y voy al instituto. » → Alma…",
+          2
+        ]
+      ],
+      "paperSolutions": [
+        "7 h ; elle fait ses devoirs ; elle joue aux jeux vidéo.",
+        "Alma se levanta a las siete y va al instituto."
+      ],
+      "mission": "Raconte ta journée en cinq étapes, avec deux horaires, deux connecteurs et une expression de fréquence.",
+      "model": "Primero me levanto a las siete. Después desayuno. Voy al instituto a las ocho. A veces juego a los videojuegos. Finalmente me acuesto a las diez.",
+      "criteria": [
+        "J’utilise me pour moi et se pour il/elle.",
+        "Mon récit comporte des horaires et des connecteurs."
+      ],
+      "help": [
+        "Organise les actions du matin au soir.",
+        "Primero me levanto… Después… Finalmente…"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Yo ___ levanto.",
+          "options": [
+            "me",
+            "se",
+            "te"
+          ],
+          "correctIndex": 0,
+          "hint": "Le petit pronom doit correspondre à yo.",
+          "explanation": "Yo me levanto ; ella se levanta.",
+          "phase": "training",
+          "id": "S10-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Ella ___ levanta.",
+          "options": [
+            "me",
+            "nos",
+            "se"
+          ],
+          "correctIndex": 2,
+          "hint": "Ella est à la troisième personne.",
+          "explanation": "Ella se levanta.",
+          "phase": "training",
+          "id": "S10-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Yo (ir) ___ al instituto.",
+          "options": [
+            "va",
+            "voy",
+            "ir"
+          ],
+          "correctIndex": 1,
+          "hint": "Ir est irrégulier.",
+          "explanation": "Yo voy ; tú vas ; ella va.",
+          "phase": "training",
+          "id": "S10-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Yo (hacer) ___ los deberes.",
+          "options": [
+            "hace",
+            "haces",
+            "hago"
+          ],
+          "correctIndex": 2,
+          "hint": "La première personne de hacer est irrégulière.",
+          "explanation": "Yo hago los deberes.",
+          "phase": "training",
+          "id": "S10-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "« A veces » signifie…",
+          "options": [
+            "toujours",
+            "parfois",
+            "jamais"
+          ],
+          "correctIndex": 1,
+          "hint": "L’action n’arrive ni toujours ni jamais.",
+          "explanation": "A veces = parfois.",
+          "phase": "exit",
+          "id": "S10-E05"
+        }
+      ],
+      "audio": {
+        "id": "A10",
+        "src": null,
+        "status": "to_record",
+        "transcript": "Me llamo Alma. Normalmente me levanto a las siete. Primero desayuno y después voy al instituto. A las cinco hago los deberes. A veces juego a los videojuegos. Por la noche leo y me acuesto a las diez."
+      },
+      "teachingNote": "",
+      "visual": "loisirs",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S10, écris le titre « Un día conmigo », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S10 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "desayuno": "je prends mon petit déjeuner",
+        "hago los deberes": "je fais mes devoirs",
+        "juego a los videojuegos": "je joue aux jeux vidéo",
+        "me acuesto": "je me couche",
+        "primero": "d’abord",
+        "después": "ensuite"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Me levanto = je me lève ; desayuno = je prends mon petit déjeuner ; voy al instituto = je vais au collège.\nHago los deberes = je fais mes devoirs ; me acuesto = je me couche.\nLevantarse : me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan."
+        },
+        {
+          "title": "Repère 2",
+          "text": "Ir : voy, vas, va, vamos, vais, van. Hacer : hago, haces, hace, hacemos, hacéis, hacen.\nFormes utiles : juego / juegas / juega ; me acuesto / te acuestas / se acuesta.\nPrimero = d’abord ; después / luego = ensuite ; finalmente = enfin."
+        },
+        {
+          "title": "Repère 3",
+          "text": "Siempre = toujours ; normalmente = habituellement ; a veces = parfois ; nunca = jamais."
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "title": "Me las arreglo",
+      "objective": "Je demande quelque chose et j’exprime un besoin.",
+      "paperPage": 11,
+      "documentHtml": "EN LA PAPELERÍA<br/>— Hola. Necesito un cuaderno, por favor. ¿Cuánto cuesta?<br/>— Cuesta tres euros.<br/>— Quiero también un bolígrafo.<br/>— El bolígrafo cuesta dos euros.<br/>— Gracias. Tengo que ir al instituto. ¿Dónde está?<br/>— Está al lado de la biblioteca.",
+      "copyLesson": {
+        "title": "Me las arreglo",
+        "lines": [
+          "Necesito un cuaderno. = J’ai besoin d’un cahier. Quiero un bolígrafo. = Je veux un stylo.",
+          "¿Cuánto cuesta? = Combien cela coûte ? Cuesta tres euros. = Cela coûte trois euros.",
+          "¿Dónde está el instituto? = Où est le collège ? ¿Puedes ayudarme? = Peux-tu m’aider ?",
+          "Puedo hablar. = Je peux parler. Tengo que estudiar. = Je dois étudier.",
+          "Après quiero, puedo et tengo que, le deuxième verbe reste à l’infinitif.",
+          "Querer : quiero, quieres, quiere, queremos, queréis, quieren.",
+          "Poder : puedo, puedes, puede, podemos, podéis, pueden. Por favor et gracias rendent la demande polie."
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je comprends la situation",
+          "Quels objets sont achetés ? ..............................................................<br/>Quel est le total ? ................ Où est le collège ? ....................................",
+          0
+        ],
+        [
+          "Je formule",
+          "Écris en espagnol : « Je dois étudier. » et « Puis-je parler ? »",
+          2
+        ]
+      ],
+      "paperSolutions": [
+        "Un cahier et un stylo ; 5 euros ; à côté de la bibliothèque.",
+        "Tengo que estudiar. / ¿Puedo hablar?"
+      ],
+      "mission": "Écris un dialogue de cinq répliques dans une papeterie : salutation, demande d’objet, demande du prix, prix et remerciement.",
+      "model": "— Hola. — Necesito un libro, por favor. — ¿Cuánto cuesta? — Cuesta ocho euros. — Gracias.",
+      "criteria": [
+        "Je peux demander un objet et son prix.",
+        "Je garde le deuxième verbe à l’infinitif."
+      ],
+      "help": [
+        "Retrouve les formules du dialogue.",
+        "Necesito… por favor. ¿Cuánto cuesta?"
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Tengo que…",
+          "options": [
+            "estudio",
+            "estudiar",
+            "estudias"
+          ],
+          "correctIndex": 1,
+          "hint": "Le verbe après que ne se conjugue pas ici.",
+          "explanation": "Tener que est suivi d’un infinitif.",
+          "phase": "training",
+          "id": "S11-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Pour demander un prix :",
+          "options": [
+            "¿Dónde está?",
+            "¿Cuánto cuesta?",
+            "¿Cómo te llamas?"
+          ],
+          "correctIndex": 1,
+          "hint": "Cuánto interroge sur une quantité.",
+          "explanation": "¿Cuánto cuesta? demande le prix.",
+          "phase": "training",
+          "id": "S11-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Ella ___ leer.",
+          "options": [
+            "quiero",
+            "quieren",
+            "quiere"
+          ],
+          "correctIndex": 2,
+          "hint": "Accorde querer avec ella.",
+          "explanation": "Ella quiere leer.",
+          "phase": "training",
+          "id": "S11-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Nosotros ___ hablar.",
+          "options": [
+            "podemos",
+            "puedo",
+            "pueden"
+          ],
+          "correctIndex": 0,
+          "hint": "Nosotros signifie nous.",
+          "explanation": "Nosotros podemos hablar.",
+          "phase": "training",
+          "id": "S11-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Choisis la phrase correcte.",
+          "options": [
+            "Quiero leo.",
+            "Quiero leer.",
+            "Querer leo."
+          ],
+          "correctIndex": 1,
+          "hint": "Le premier verbe se conjugue, le second reste à l’infinitif.",
+          "explanation": "Quiero leer = je veux lire.",
+          "phase": "exit",
+          "id": "S11-E05"
+        }
+      ],
+      "audio": {
+        "id": "A11",
+        "src": null,
+        "status": "to_record",
+        "transcript": "EN LA PAPELERÍA — Hola. Necesito un cuaderno, por favor. ¿Cuánto cuesta? — Cuesta tres euros. — Quiero también un bolígrafo. — El bolígrafo cuesta dos euros. — Gracias. Tengo que ir al instituto. ¿Dónde está? — Está al lado de la biblioteca."
+      },
+      "teachingNote": "",
+      "visual": "bureau",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S11, écris le titre « Me las arreglo », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S11 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "cuesta": "coûte",
+        "también": "aussi",
+        "quiero": "je veux",
+        "tengo que": "je dois",
+        "instituto": "collège / établissement secondaire",
+        "biblioteca": "bibliothèque"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Necesito un cuaderno. = J’ai besoin d’un cahier. Quiero un bolígrafo. = Je veux un stylo.\n¿Cuánto cuesta? = Combien cela coûte ? Cuesta tres euros. = Cela coûte trois euros.\n¿Dónde está el instituto? = Où est le collège ? ¿Puedes ayudarme? = Peux-tu m’aider ?"
+        },
+        {
+          "title": "Repère 2",
+          "text": "Puedo hablar. = Je peux parler. Tengo que estudiar. = Je dois étudier.\nAprès quiero, puedo et tengo que, le deuxième verbe reste à l’infinitif.\nQuerer : quiero, quieres, quiere, queremos, queréis, quieren."
+        },
+        {
+          "title": "Repère 3",
+          "text": "Poder : puedo, puedes, puede, podemos, podéis, pueden. Por favor et gracias rendent la demande polie."
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "title": "Conectamos",
+      "objective": "Je comprends un message et j’y réponds.",
+      "paperPage": 12,
+      "documentHtml": "¡Hola! Me llamo Sofía y tengo catorce años. Vivo en Zaragoza con mi padre y mi hermana. Me gustan los cómics, pero no me gusta bailar. Los miércoles juego al baloncesto a las cinco y media. Mi cumpleaños es el veintidós de mayo. ¿Y tú?",
+      "copyLesson": {
+        "title": "Conectamos",
+        "lines": [
+          "Pour comprendre un document, je repère : qui, où, âge, goûts, activités et horaires.",
+          "Pour répondre, je prépare mes idées puis je fais des phrases courtes.",
+          "Je relie les idées avec y, pero et porque.",
+          "Je vérifie l’âge avec tener, gusta/gustan, les accords et les terminaisons du présent.",
+          "Si je bloque à l’oral : No entiendo. ¿Puedes repetir?"
+        ]
+      },
+      "paperTasks": [
+        [
+          "Je comprends Sofía",
+          "Âge : ............ Ville : ........................ Avec qui vit-elle ? ........................<br/>Un goût : ................................ Activité + horaire : ................................<br/>Anniversaire : ...................................................................................",
+          1
+        ],
+        [
+          "J’écoute un autre contact",
+          "Sur le site, écoute A12 sans lire. Prénom : ................ Âge : ................<br/>Ville : ................ Activité : ................ Jour et heure : ................................",
+          1
+        ]
+      ],
+      "paperSolutions": [
+        "14 ans ; Saragosse ; son père et sa sœur ; les BD (ou elle n’aime pas danser) ; basket le mercredi à 17 h 30 ; le 22 mai.",
+        "Marcos ; 13 ans ; Bilbao ; basket ; mardi à 17 heures. Ne valider cette partie qu’après une écoute."
+      ],
+      "mission": "Sur la page suivante du cahier, réponds à Sofía en 8 à 10 phrases : identité, entourage, deux goûts, activité avec horaire et une question. Prépare un oral de 45 à 90 secondes avec cinq mots-clés.",
+      "model": "¡Hola, Sofía! Me llamo Alex. Tengo catorce años. Vivo en Nantes. Mi hermana se llama Eva. Es simpática. Me gustan los cómics y la música. No me gusta bailar. Los lunes hago deporte a las cinco. ¿Te gustan los videojuegos?",
+      "criteria": [
+        "Mon message répond aux informations demandées.",
+        "Je peux me présenter avec quelques mots-clés."
+      ],
+      "help": [
+        "Relis seulement les mémos utiles.",
+        "Organise ta réponse : identité → entourage → goûts → activité → question."
+      ],
+      "activities": [
+        {
+          "type": "single_choice",
+          "prompt": "Sofía a…",
+          "options": [
+            "13 ans",
+            "14 ans",
+            "15 ans"
+          ],
+          "correctIndex": 1,
+          "hint": "Cherche tengo… años.",
+          "explanation": "Catorce signifie quatorze.",
+          "phase": "training",
+          "id": "S12-E01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Elle habite…",
+          "options": [
+            "à Bilbao",
+            "à Madrid",
+            "à Saragosse"
+          ],
+          "correctIndex": 2,
+          "hint": "Repère vivo en.",
+          "explanation": "Zaragoza est le nom espagnol de Saragosse.",
+          "phase": "training",
+          "id": "S12-E02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Elle aime…",
+          "options": [
+            "les BD",
+            "danser",
+            "le football"
+          ],
+          "correctIndex": 0,
+          "hint": "Repère me gustan.",
+          "explanation": "Los cómics signifie les bandes dessinées.",
+          "phase": "training",
+          "id": "S12-E03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Elle joue au basket…",
+          "options": [
+            "le mardi à 17 h",
+            "le mercredi à 17 h 30",
+            "le mercredi à 18 h"
+          ],
+          "correctIndex": 1,
+          "hint": "Miércoles et cinco y media donnent le jour et l’heure.",
+          "explanation": "Los miércoles… a las cinco y media.",
+          "phase": "training",
+          "id": "S12-E04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Son anniversaire est…",
+          "options": [
+            "le 12 mai",
+            "le 22 juin",
+            "le 22 mai"
+          ],
+          "correctIndex": 2,
+          "hint": "Veintidós = 22 ; mayo = mai.",
+          "explanation": "El veintidós de mayo = le 22 mai.",
+          "phase": "exit",
+          "id": "S12-E05"
+        }
+      ],
+      "audio": {
+        "id": "A12",
+        "src": null,
+        "status": "to_record",
+        "transcript": "¡Hola! Me llamo Marcos y tengo trece años. Vivo en Bilbao. Me gusta jugar al baloncesto. Los martes juego a las cinco de la tarde. ¿Y tú?"
+      },
+      "teachingNote": "L’audio A12 et le document écrit portent sur deux personnes différentes. Faire l’écoute avant de révéler sa transcription. La production finale reste évaluée par critères, pas par égalité avec le modèle.",
+      "visual": "loisirs",
+      "steps": [
+        "decouvrir",
+        "comprendre",
+        "entrainer",
+        "copier",
+        "appliquer",
+        "verifier"
+      ],
+      "copyInstruction": "Sur la page du cahier qui suit la fiche S12, écris le titre « Conectamos », puis recopie uniquement le cadre Leçon. Compare ta copie au modèle.",
+      "paperInstruction": "Complète les activités de la fiche S12 sans regarder la correction. Si tu bloques, utilise un indice sur le site.",
+      "glossary": {
+        "con": "avec",
+        "padre": "père",
+        "hermana": "sœur",
+        "cómics": "BD",
+        "baloncesto": "basket-ball",
+        "cumpleaños": "anniversaire",
+        "¿y tú?": "et toi ?",
+        "hacer deporte": "faire du sport"
+      },
+      "understandCards": [
+        {
+          "title": "Repère 1",
+          "text": "Pour comprendre un document, je repère : qui, où, âge, goûts, activités et horaires.\nPour répondre, je prépare mes idées puis je fais des phrases courtes.\nJe relie les idées avec y, pero et porque."
+        },
+        {
+          "title": "Repère 2",
+          "text": "Je vérifie l’âge avec tener, gusta/gustan, les accords et les terminaisons du présent.\nSi je bloque à l’oral : No entiendo. ¿Puedes repetir?"
+        }
+      ]
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "B01",
+      "afterModule": "S04",
+      "threshold": 4,
+      "maxScore": 5,
+      "questions": [
+        {
+          "type": "single_choice",
+          "prompt": "Demander de répéter :",
+          "options": [
+            "¿Puedes repetir?",
+            "Hasta luego.",
+            "Gracias."
+          ],
+          "correctIndex": 0,
+          "hint": "Réécouter une phrase.",
+          "explanation": "¿Puedes repetir? demande une répétition.",
+          "phase": "training",
+          "id": "B01-Q1",
+          "reviewModule": "S01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Yo ___ trece años.",
+          "options": [
+            "soy",
+            "tengo",
+            "vivo"
+          ],
+          "correctIndex": 1,
+          "hint": "L’âge utilise avoir.",
+          "explanation": "Tengo trece años.",
+          "phase": "training",
+          "id": "B01-Q2",
+          "reviewModule": "S02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "48 =",
+          "options": [
+            "ochenta y cuatro",
+            "cuarenta y ocho",
+            "cuarenta ocho"
+          ],
+          "correctIndex": 1,
+          "hint": "40 puis 8.",
+          "explanation": "Cuarenta y ocho.",
+          "phase": "training",
+          "id": "B01-Q3",
+          "reviewModule": "S03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Una amiga…",
+          "options": [
+            "simpática",
+            "simpático",
+            "simpáticos"
+          ],
+          "correctIndex": 0,
+          "hint": "Féminin singulier.",
+          "explanation": "Amiga simpática.",
+          "phase": "training",
+          "id": "B01-Q4",
+          "reviewModule": "S04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Où habites-tu ?",
+          "options": [
+            "¿Cuántos años tienes?",
+            "¿Dónde vives?",
+            "¿Qué hora es?"
+          ],
+          "correctIndex": 1,
+          "hint": "Interroge sur le lieu.",
+          "explanation": "¿Dónde vives?",
+          "phase": "training",
+          "id": "B01-Q5",
+          "reviewModule": "S02"
+        }
+      ],
+      "retry": [
+        {
+          "type": "single_choice",
+          "prompt": "Je ne comprends pas.",
+          "options": [
+            "No entiendo.",
+            "Me llamo.",
+            "Gracias."
+          ],
+          "correctIndex": 0,
+          "hint": "Comprendre = entender.",
+          "explanation": "No entiendo.",
+          "phase": "training",
+          "id": "B01-R1",
+          "reviewModule": "S01"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Ella ___ catorce años.",
+          "options": [
+            "tengo",
+            "tienes",
+            "tiene"
+          ],
+          "correctIndex": 2,
+          "hint": "Elle : troisième personne.",
+          "explanation": "Ella tiene.",
+          "phase": "training",
+          "id": "B01-R2",
+          "reviewModule": "S02"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "63 =",
+          "options": [
+            "sesenta y tres",
+            "treinta y seis",
+            "sesenta tres"
+          ],
+          "correctIndex": 0,
+          "hint": "60 puis 3.",
+          "explanation": "Sesenta y tres.",
+          "phase": "training",
+          "id": "B01-R3",
+          "reviewModule": "S03"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Mis amigas son…",
+          "options": [
+            "divertida",
+            "divertido",
+            "divertidas"
+          ],
+          "correctIndex": 2,
+          "hint": "Féminin pluriel.",
+          "explanation": "Mis amigas son divertidas.",
+          "phase": "training",
+          "id": "B01-R4",
+          "reviewModule": "S04"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Quel âge as-tu ?",
+          "options": [
+            "¿Cómo te llamas?",
+            "¿Cuántos años tienes?",
+            "¿Dónde vives?"
+          ],
+          "correctIndex": 1,
+          "hint": "Demande le nombre d’années.",
+          "explanation": "¿Cuántos años tienes?",
+          "phase": "training",
+          "id": "B01-R5",
+          "reviewModule": "S02"
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "afterModule": "S08",
+      "threshold": 4,
+      "maxScore": 5,
+      "questions": [
+        {
+          "type": "single_choice",
+          "prompt": "En mi clase ___ una mesa.",
+          "options": [
+            "hay",
+            "es",
+            "está"
+          ],
+          "correctIndex": 0,
+          "hint": "Existence.",
+          "explanation": "Hay una mesa.",
+          "phase": "training",
+          "id": "B02-Q1",
+          "reviewModule": "S05"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Me ___ los cómics.",
+          "options": [
+            "gusta",
+            "gustan",
+            "gusto"
+          ],
+          "correctIndex": 1,
+          "hint": "Nom pluriel.",
+          "explanation": "Me gustan los cómics.",
+          "phase": "training",
+          "id": "B02-Q2",
+          "reviewModule": "S06"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Nosotros (hablar)…",
+          "options": [
+            "hablan",
+            "habláis",
+            "hablamos"
+          ],
+          "correctIndex": 2,
+          "hint": "Nous.",
+          "explanation": "Hablamos.",
+          "phase": "training",
+          "id": "B02-Q3",
+          "reviewModule": "S07"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Après martes :",
+          "options": [
+            "lunes",
+            "miércoles",
+            "jueves"
+          ],
+          "correctIndex": 1,
+          "hint": "Ordre des jours.",
+          "explanation": "Miércoles.",
+          "phase": "training",
+          "id": "B02-Q4",
+          "reviewModule": "S08"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le 15 février :",
+          "options": [
+            "el quince de febrero",
+            "el cinco de febrero",
+            "el quince de enero"
+          ],
+          "correctIndex": 0,
+          "hint": "15 puis février.",
+          "explanation": "El quince de febrero.",
+          "phase": "training",
+          "id": "B02-Q5",
+          "reviewModule": "S08"
+        }
+      ],
+      "retry": [
+        {
+          "type": "single_choice",
+          "prompt": "Mi libro ___ en la mesa.",
+          "options": [
+            "hay",
+            "está",
+            "son"
+          ],
+          "correctIndex": 1,
+          "hint": "Localisation.",
+          "explanation": "Mi libro está.",
+          "phase": "training",
+          "id": "B02-R1",
+          "reviewModule": "S05"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Me ___ leer.",
+          "options": [
+            "gustan",
+            "gusto",
+            "gusta"
+          ],
+          "correctIndex": 2,
+          "hint": "Infinitif.",
+          "explanation": "Me gusta leer.",
+          "phase": "training",
+          "id": "B02-R2",
+          "reviewModule": "S06"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Ellas (vivir)…",
+          "options": [
+            "viven",
+            "vivimos",
+            "vives"
+          ],
+          "correctIndex": 0,
+          "hint": "Elles.",
+          "explanation": "Viven.",
+          "phase": "training",
+          "id": "B02-R3",
+          "reviewModule": "S07"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Après viernes :",
+          "options": [
+            "jueves",
+            "sábado",
+            "domingo"
+          ],
+          "correctIndex": 1,
+          "hint": "Ordre des jours.",
+          "explanation": "Sábado.",
+          "phase": "training",
+          "id": "B02-R4",
+          "reviewModule": "S08"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le 8 mars :",
+          "options": [
+            "el ocho de mayo",
+            "el ocho de marzo",
+            "el dieciocho de marzo"
+          ],
+          "correctIndex": 1,
+          "hint": "Marzo = mars.",
+          "explanation": "El ocho de marzo.",
+          "phase": "training",
+          "id": "B02-R5",
+          "reviewModule": "S08"
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "afterModule": "S11",
+      "threshold": 4,
+      "maxScore": 5,
+      "questions": [
+        {
+          "type": "single_choice",
+          "prompt": "8 h 30 :",
+          "options": [
+            "las ocho y cuarto",
+            "las ocho y media",
+            "las nueve menos cuarto"
+          ],
+          "correctIndex": 1,
+          "hint": "30 minutes.",
+          "explanation": "Las ocho y media.",
+          "phase": "training",
+          "id": "B03-Q1",
+          "reviewModule": "S09"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le cours est à une heure.",
+          "options": [
+            "La clase es a la una.",
+            "La clase es a las una.",
+            "La clase es son la una."
+          ],
+          "correctIndex": 0,
+          "hint": "Une heure au singulier.",
+          "explanation": "A la una.",
+          "phase": "training",
+          "id": "B03-Q2",
+          "reviewModule": "S09"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Ella ___ levanta.",
+          "options": [
+            "me",
+            "te",
+            "se"
+          ],
+          "correctIndex": 2,
+          "hint": "Troisième personne.",
+          "explanation": "Ella se levanta.",
+          "phase": "training",
+          "id": "B03-Q3",
+          "reviewModule": "S10"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Yo (ir)…",
+          "options": [
+            "va",
+            "voy",
+            "vas"
+          ],
+          "correctIndex": 1,
+          "hint": "Forme irrégulière.",
+          "explanation": "Yo voy.",
+          "phase": "training",
+          "id": "B03-Q4",
+          "reviewModule": "S10"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Je dois étudier.",
+          "options": [
+            "Tengo que estudiar.",
+            "Tengo que estudio.",
+            "Tiene que estudiar."
+          ],
+          "correctIndex": 0,
+          "hint": "Premier verbe pour yo, second infinitif.",
+          "explanation": "Tengo que estudiar.",
+          "phase": "training",
+          "id": "B03-Q5",
+          "reviewModule": "S11"
+        }
+      ],
+      "retry": [
+        {
+          "type": "single_choice",
+          "prompt": "3 h 15 :",
+          "options": [
+            "las tres y media",
+            "las cuatro menos cuarto",
+            "las tres y cuarto"
+          ],
+          "correctIndex": 2,
+          "hint": "15 minutes.",
+          "explanation": "Las tres y cuarto.",
+          "phase": "training",
+          "id": "B03-R1",
+          "reviewModule": "S09"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Le cours est à deux heures.",
+          "options": [
+            "La clase es a las dos.",
+            "La clase es a la dos.",
+            "La clase son las dos."
+          ],
+          "correctIndex": 0,
+          "hint": "Horaire : a las.",
+          "explanation": "A las dos.",
+          "phase": "training",
+          "id": "B03-R2",
+          "reviewModule": "S09"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Yo ___ levanto.",
+          "options": [
+            "se",
+            "me",
+            "nos"
+          ],
+          "correctIndex": 1,
+          "hint": "Première personne.",
+          "explanation": "Yo me levanto.",
+          "phase": "training",
+          "id": "B03-R3",
+          "reviewModule": "S10"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Ella (ir)…",
+          "options": [
+            "voy",
+            "vas",
+            "va"
+          ],
+          "correctIndex": 2,
+          "hint": "Troisième personne.",
+          "explanation": "Ella va.",
+          "phase": "training",
+          "id": "B03-R4",
+          "reviewModule": "S10"
+        },
+        {
+          "type": "single_choice",
+          "prompt": "Je veux lire.",
+          "options": [
+            "Quiero leer.",
+            "Quiero leo.",
+            "Querer leo."
+          ],
+          "correctIndex": 0,
+          "hint": "Deuxième verbe à l’infinitif.",
+          "explanation": "Quiero leer.",
+          "phase": "training",
+          "id": "B03-R5",
+          "reviewModule": "S11"
+        }
+      ]
+    }
+  ],
+  "memos": {
+    "hundreds": [
+      "100 cien",
+      "101 ciento uno",
+      "200 doscientos",
+      "300 trescientos",
+      "400 cuatrocientos",
+      "500 quinientos",
+      "600 seiscientos",
+      "700 setecientos",
+      "800 ochocientos",
+      "900 novecientos",
+      "1000 mil"
+    ],
+    "essentialVerbs": {
+      "ser": [
+        "soy",
+        "eres",
+        "es",
+        "somos",
+        "sois",
+        "son"
+      ],
+      "tener": [
+        "tengo",
+        "tienes",
+        "tiene",
+        "tenemos",
+        "tenéis",
+        "tienen"
+      ],
+      "estar": [
+        "estoy",
+        "estás",
+        "está",
+        "estamos",
+        "estáis",
+        "están"
+      ],
+      "jugar": [
+        "juego",
+        "juegas",
+        "juega",
+        "jugamos",
+        "jugáis",
+        "juegan"
+      ],
+      "acostarse": [
+        "me acuesto",
+        "te acuestas",
+        "se acuesta",
+        "nos acostamos",
+        "os acostáis",
+        "se acuestan"
+      ]
+    },
+    "order": [
+      "yo",
+      "tú",
+      "él/ella/usted",
+      "nosotros/as",
+      "vosotros/as",
+      "ellos/ellas/ustedes"
+    ]
+  },
+  "audioFinalAnswers": {
+    "name": "Marcos",
+    "age": 13,
+    "city": "Bilbao",
+    "activity": "baloncesto",
+    "when": "martes a las cinco de la tarde"
+  },
+  "clockExercise": {
+    "module": "S09",
+    "clocks": [
+      {
+        "label": "A",
+        "hour": 2,
+        "minute": 15
+      },
+      {
+        "label": "B",
+        "hour": 6,
+        "minute": 30
+      },
+      {
+        "label": "C",
+        "hour": 9,
+        "minute": 45
+      }
+    ]
+  },
+  "progressSchema": {
+    "schemaVersion": 2,
+    "contentVersion": "2.0",
+    "currentModule": "S01",
+    "currentStep": "decouvrir",
+    "attempts": {},
+    "copyDeclaredDone": {},
+    "paperDeclaredCorrected": {},
+    "missions": {},
+    "checkpoints": {},
+    "oralObserved": false
+  }
+}
