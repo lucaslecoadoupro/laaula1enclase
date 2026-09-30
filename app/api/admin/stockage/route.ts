@@ -1,13 +1,26 @@
 import { NextResponse } from "next/server";
-import { del, put } from "@vercel/blob";
+import { del, issueSignedToken, put } from "@vercel/blob";
+import { ensureBlobEnv } from "@/lib/blob-env";
 
 export const dynamic = "force-dynamic";
+export const maxDuration = 60;
 
 type Check = { ok: boolean; label: string; detail?: string };
 
+/** Limite de durée d'une étape (la bibliothèque réessaie plusieurs fois en cas d'erreur réseau). */
+function withTimeout<T>(p: Promise<T>, ms = 20000): Promise<T> {
+  return Promise.race([
+    p,
+    new Promise<T>((_, reject) => setTimeout(() => reject(new Error(`Pas de réponse du service de stockage après ${ms / 1000} s (réseau ?).`)), ms)),
+  ]);
+}
+
 /** Traduit une erreur Vercel Blob en explication + marche à suivre. */
-function explain(message: string): string {
+function explain(message: string, hasStore = false): string {
   const m = message.toLowerCase();
+  if (hasStore && m.includes("no blob credentials")) {
+    return "Le store est bien trouvé, mais le jeton d'authentification automatique (OIDC) est absent. Sur Vercel il est fourni tout seul à chaque déploiement : redéploie le projet. En local, lance « vercel env pull » pour le récupérer.";
+  }
   if (m.includes("private")) {
     return "Ton store est en accès « Private ». Le site a besoin d'un store « Public » (les documents sont affichés directement aux élèves). Crée un nouveau store Blob en Public, connecte-le au projet, déconnecte l'ancien, puis redéploie.";
   }
@@ -32,39 +45,57 @@ function explain(message: string): string {
  * puis envoi et suppression réels d'un petit fichier de test.
  */
 export async function GET() {
-  const rw = process.env.BLOB_READ_WRITE_TOKEN;
-  const storeId = process.env.BLOB_STORE_ID;
+  const env = ensureBlobEnv();
   const checks: Check[] = [];
+  const std = (found: string | null, standard: string) =>
+    found === standard ? `Présent (${standard}).` : `Présent sous le nom ${found} (préfixe personnalisé) : pris en compte automatiquement.`;
 
   checks.push({
-    ok: !!rw,
-    label: "Jeton BLOB_READ_WRITE_TOKEN",
-    detail: rw
-      ? "Présent : les envois depuis le navigateur sont possibles."
-      : "Absent. Il est indispensable pour envoyer des fichiers depuis ton navigateur. Vercel l'ajoute normalement tout seul quand on connecte un store au projet (Storage → ton store → Projects → ⋯ → Update Project Connection) ; s'il manque, copie-le depuis la page du store (onglet « .env.local ») dans Settings → Environment Variables, puis redéploie.",
+    ok: !!env.storeId.name || !!env.readWriteToken.name,
+    label: "Store Blob connecté au projet",
+    detail: env.storeId.name
+      ? std(env.storeId.name, "BLOB_STORE_ID")
+      : env.readWriteToken.name
+        ? "Identifiant du store absent, mais le jeton suffit."
+        : "Aucune variable de store trouvée. Dans Vercel → ton projet → Storage, connecte le store Blob à ce projet (environnement Production coché), puis redéploie.",
   });
   checks.push({
-    ok: !!storeId || !!rw,
-    label: "Store connecté (BLOB_STORE_ID)",
-    detail: storeId ? `Présent (${storeId}).` : rw ? "Absent, mais le jeton suffit." : "Absent : aucun store Blob n'est connecté à ce projet.",
+    ok: env.uploadMode !== "none",
+    label: "Méthode d'envoi depuis le navigateur",
+    detail:
+      env.uploadMode === "token"
+        ? `Jeton longue durée : ${std(env.readWriteToken.name, "BLOB_READ_WRITE_TOKEN")}`
+        : env.uploadMode === "presigned"
+          ? "URL pré-signées (authentification automatique OIDC de Vercel, sans jeton longue durée)."
+          : "Impossible : ni store, ni jeton.",
   });
+
+  if (env.uploadMode === "presigned") {
+    try {
+      await withTimeout(issueSignedToken({ pathname: "diagnostic/test.txt", operations: ["put"], validUntil: Date.now() + 60_000, abortSignal: AbortSignal.timeout(15000) }));
+      checks.push({ ok: true, label: "Autorisation d'envoi (URL pré-signée)", detail: "Accordée." });
+    } catch (error) {
+      const msg = error instanceof Error ? error.message : String(error);
+      checks.push({ ok: false, label: "Autorisation d'envoi (URL pré-signée)", detail: `${explain(msg, !!env.storeId.name)}\n\nMessage technique : ${msg}` });
+    }
+  }
 
   let testUrl: string | null = null;
   try {
-    const blob = await put("diagnostic/test.txt", "ok", { access: "public", addRandomSuffix: true, contentType: "text/plain" });
+    const blob = await withTimeout(put("diagnostic/test.txt", "ok", { access: "public", addRandomSuffix: true, contentType: "text/plain", abortSignal: AbortSignal.timeout(15000) }));
     testUrl = blob.url;
     checks.push({ ok: true, label: "Envoi d'un fichier de test (accès public)", detail: "Réussi." });
   } catch (error) {
     const msg = error instanceof Error ? error.message : String(error);
-    checks.push({ ok: false, label: "Envoi d'un fichier de test (accès public)", detail: `${explain(msg)}\n\nMessage technique : ${msg}` });
+    checks.push({ ok: false, label: "Envoi d'un fichier de test (accès public)", detail: `${explain(msg, !!env.storeId.name)}\n\nMessage technique : ${msg}` });
   }
   if (testUrl) {
     try {
-      await del(testUrl);
+      await withTimeout(del(testUrl, { abortSignal: AbortSignal.timeout(15000) }));
       checks.push({ ok: true, label: "Suppression du fichier de test", detail: "Réussie." });
     } catch (error) {
       const msg = error instanceof Error ? error.message : String(error);
-      checks.push({ ok: false, label: "Suppression du fichier de test", detail: `${explain(msg)}\n\nMessage technique : ${msg}` });
+      checks.push({ ok: false, label: "Suppression du fichier de test", detail: `${explain(msg, !!env.storeId.name)}\n\nMessage technique : ${msg}` });
     }
   }
 

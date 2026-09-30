@@ -138,6 +138,10 @@ ressources affichées sur `/ressources` (titre, description optionnelle, URL)
    **indispensable** pour envoyer des fichiers depuis le navigateur.
 4. **Redéploie** (Deployments → ⋯ → Redeploy) : les variables ne sont prises en
    compte qu'au déploiement suivant.
+   Si un préfixe personnalisé a été saisi à la connexion (ex. variables
+   `BLOB_READ_WRITE_TOKEN_STORE_ID`…), le site les retrouve tout seul
+   (`lib/blob-env.ts`). Sans jeton longue durée, l'envoi passe par des URL
+   pré-signées (authentification automatique OIDC de Vercel).
 5. Dans l'espace enseignant → Réglages du site → **Vérifier le stockage** : le
    site envoie puis supprime un petit fichier de test et t'explique quoi
    corriger si quelque chose bloque.

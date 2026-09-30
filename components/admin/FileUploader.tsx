@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { upload } from "@vercel/blob/client";
+import { upload, uploadPresigned } from "@vercel/blob/client";
 import { ExternalLink, RefreshCw, Upload, X } from "lucide-react";
 import type { Fichier } from "@/lib/fichier";
 import { ALLOWED_CONTENT_TYPES, MAX_FILE_SIZE, fileKind, formatSize, kindLabel } from "@/lib/file-kinds";
@@ -41,7 +41,12 @@ export default function FileUploader({
     setProgress(0);
     try {
       const safeName = file.name.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-zA-Z0-9._-]+/g, "-");
-      const blob = await upload(`${folder}/${safeName}`, file, {
+      // Méthode d'envoi selon la configuration du stockage (jeton ou URL pré-signée).
+      const modeRes = await fetch("/api/admin/upload", { cache: "no-store" });
+      const { mode } = modeRes.ok ? await modeRes.json() : { mode: "token" };
+      if (mode === "none") throw new Error("aucun store Blob n'est connecté au projet");
+      const send = mode === "presigned" ? uploadPresigned : upload;
+      const blob = await send(`${folder}/${safeName}`, file, {
         access: "public",
         handleUploadUrl: "/api/admin/upload",
         multipart: file.size > 8 * 1024 * 1024,
