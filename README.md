@@ -101,6 +101,16 @@ Visibilité, au choix pour chaque publication :
   d'élèves, puisque l'accueil est public : prénom seulement, pas de visage
   reconnaissable sans autorisation.
 
+## Musée (`/musee`, géré dans `/admin/musee`)
+
+Une galerie publique (sans mot de passe) des créations d'élèves. Pour chaque
+œuvre : le fichier (image affichée en grand, vidéo et audio lisibles, autres
+fichiers à télécharger), le ou les **prénoms**, la **classe** (ou « non
+précisée »), et en option un titre et un petit mot. On peut modifier ou retirer
+une œuvre ; son fichier est alors supprimé du stockage. Les visiteurs peuvent
+filtrer par classe. Prénoms seulement, pas de visage reconnaissable sans
+autorisation.
+
 ## Tableau de classe (`/tableau`)
 
 Un tableau à projeter en classe, dans l'esprit de Classroomscreen, réservé au

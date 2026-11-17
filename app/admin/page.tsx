@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { ArrowRight, FolderOpen, LifeBuoy, Newspaper, Presentation } from "lucide-react";
+import { ArrowRight, FolderOpen, Landmark, LifeBuoy, Newspaper, Presentation } from "lucide-react";
 import { getHomeContent } from "@/lib/site-content-repo";
 import { getRessources } from "@/lib/ressources-repo";
 import { getCoursCounts, getSequences } from "@/lib/pedago-repo";
@@ -59,8 +59,9 @@ export default async function AdminPage() {
         )}
       </div>
 
-      <div className="mt-10 grid gap-4 md:grid-cols-3">
+      <div className="mt-10 grid gap-4 md:grid-cols-2">
         <AdminShortcut href="/admin/actualites" color="var(--color-coral)" icon={<Newspaper size={21} />} eyebrow="Accueil & classes" title="Fil d'actualité" text="Infos, documents, productions d'élèves." />
+        <AdminShortcut href="/admin/musee" color="var(--color-blue)" icon={<Landmark size={21} />} eyebrow="Public" title="Musée" text="Créations d'élèves : prénoms et classe." />
         <AdminShortcut href="/tableau" color="var(--color-teal)" icon={<Presentation size={21} />} eyebrow="En classe" title="Tableau de classe" text="Minuteur, tirage au sort, consignes, sonomètre…" />
         <AdminShortcut href="/admin/remise" color="var(--color-sun)" icon={<LifeBuoy size={21} />} eyebrow="Remise à niveau" title="Conexión español" text="Modules, leçons, QCM, bilans, audios." />
       </div>

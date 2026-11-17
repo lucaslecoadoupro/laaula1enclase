@@ -7,6 +7,7 @@ import BrandMark from "@/components/BrandMark";
 const TABS = [
   { href: "/", label: "Mes classes", match: (p: string) => p === "/" || p.startsWith("/matiere") || p.startsWith("/login") },
   { href: "/actualites", label: "Actualités", match: (p: string) => p.startsWith("/actualites") },
+  { href: "/musee", label: "Musée", match: (p: string) => p.startsWith("/musee") },
   { href: "/ressources", label: "Ressources", match: (p: string) => p.startsWith("/ressources") },
   { href: "/lce", label: "LCE", match: (p: string) => p.startsWith("/lce") },
 ];
@@ -24,7 +25,8 @@ export default function SiteHeader() {
             <span className="hidden sm:inline">El aula 1 </span><span className="hidden font-medium text-[var(--color-ink-soft)] sm:inline">en casa</span>
           </span>
         </Link>
-        <nav className="flex min-w-0 items-center gap-3 sm:gap-7">
+        {/* Défile horizontalement sur petit écran ; py-2 laisse la place au soulignement de l'onglet actif. */}
+        <nav className="-my-2 flex min-w-0 items-center gap-4 overflow-x-auto py-2 [scrollbar-width:none] sm:gap-7 [&::-webkit-scrollbar]:hidden">
           {isAdmin ? (
             <Link href="/admin" className="nav-tab nav-tab-active">
               Espace enseignant

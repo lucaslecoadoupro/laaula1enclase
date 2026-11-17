@@ -123,6 +123,24 @@ async function ensureSchema(db: Client) {
     )
   `);
 
+  // Musée : créations d'élèves exposées publiquement (prénoms + classe, pas de nom de famille).
+  // `classe` = classeSlug (voir lib/classes.ts), ou '' si non précisée.
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS musee (
+      id TEXT PRIMARY KEY,
+      titre TEXT NOT NULL DEFAULT '',
+      prenoms TEXT NOT NULL DEFAULT '',
+      classe TEXT NOT NULL DEFAULT '',
+      description TEXT NOT NULL DEFAULT '',
+      fichier TEXT,
+      created_at TEXT NOT NULL,
+      updated_at TEXT NOT NULL
+    )
+  `);
+
+  // Correctif ponctuel : le titre de l'accueil enregistré en base disait « La aula ».
+  await db.execute(`UPDATE site_content SET title = 'El aula' || substr(title, 8) WHERE title LIKE 'La aula%'`);
+
   // Corrigé découpé en blocs, dévoilés classe par classe.
   // `document_id` = id du cours (document principal) ou d'un élément de type fichier.
   await db.execute(`
